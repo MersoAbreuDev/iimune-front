@@ -59,6 +59,7 @@ ion-menu.md ion-item.selected ion-icon {
 
 ion-menu.md ion-item ion-icon {
   color: #616e7e;
+  margin: 0 10px 0 0; 
 }
 
 ion-menu.md ion-item ion-label {
@@ -116,4 +117,29 @@ ion-note {
 
 ion-item.selected {
   --color: var(--ion-color-primary);
+}
+
+
+.user{
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin: 0 0 20px 0;
+}
+
+.user ion-avatar img{
+  height: auto;
+}
+
+.user ion-avatar{
+  margin: 0 7px 0 0;
+}
+
+.user .perfil h2{
+  margin: 0;
+  font-size: 16px;
+}
+
+.user .perfil a{
+  font-size: 14px;
 }
