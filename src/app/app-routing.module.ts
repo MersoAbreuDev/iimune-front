@@ -22,7 +22,12 @@ const routes: Routes = [
   {
     path: 'perfil',
     loadChildren: () => import('./pages/perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
+  {
+    path: 'vacinas',
+    loadChildren: () => import('./pages/vacinas/vacinas.module').then( m => m.VacinasPageModule)
   }
+
 
 ];
 
