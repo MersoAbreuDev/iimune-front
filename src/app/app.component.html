@@ -8,8 +8,10 @@
               <img alt="Silhouette of a person's head" src="./assets/avatar.png" />
             </ion-avatar>
             <div class="perfil">
-              <h2>Olá Raquel</h2>
-              <a href="#">Meu perfil</a>
+              <h2>Olá, Raquel</h2>
+              <ion-button [routerLink]="['/perfil']" (click)="closeMenu()">
+                Meu perfil
+              </ion-button>
             </div>
           </div>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
