@@ -138,8 +138,21 @@ ion-item.selected {
 .user .perfil h2{
   margin: 0;
   font-size: 16px;
+  color: #464646;
 }
 
-.user .perfil a{
+.user .perfil ion-button{
   font-size: 14px;
+  text-decoration: underline;
+  background-color: transparent;
+  color: #73849a;
+  --background: transparent; 
+  --box-shadow: none;        
+  --border-width: 0;
+  --padding-start: 0px; 
+  --padding-end: 0px;   
+  --padding-top: 0px;  
+  --padding-bottom: 0px;
+  min-height: initial;
+  margin: 0;
 }

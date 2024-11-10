@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -10,5 +11,9 @@ export class AppComponent {
     { title: 'Dependentes', url: '/folder/favorites', icon: 'people' },
     { title: 'Informações', url: '/folder/outbox', icon: 'information-circle' }
   ];
-  constructor() {}
+  constructor(private menuController: MenuController) {}
+
+  closeMenu() {
+    this.menuController.close();
+  }
 }
