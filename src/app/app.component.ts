@@ -6,9 +6,11 @@ import { MenuController } from '@ionic/angular';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+
   public appPages = [
+    { title: 'Home', url: '/home', icon: 'home' },
     { title: 'Vacinas', url: '/vacinas', icon: 'wallet' },
-    { title: 'Carteirinha', url: '/folder/inbox', icon: 'wallet' },
+    { title: 'Cartão SUS', url: '/carteirinha', icon: 'wallet' },
     { title: 'Dependentes', url: '/folder/favorites', icon: 'people' },
     { title: 'Informações', url: '/folder/outbox', icon: 'information-circle' }
   ];
@@ -17,4 +19,5 @@ export class AppComponent {
   closeMenu() {
     this.menuController.close();
   }
+
 }

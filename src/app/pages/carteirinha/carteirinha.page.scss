@@ -1,0 +1,19 @@
+.sus{
+    .content{
+        text-align: center;
+        .content-title{
+            margin: 0 0 10px 0;
+            h2{
+                margin: 0;
+                font-size: 22px;
+                color: #464646;
+            }
+        }
+        .content-image{
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
