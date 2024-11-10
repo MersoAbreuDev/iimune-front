@@ -7,6 +7,7 @@ import { MenuController } from '@ionic/angular';
 })
 export class AppComponent {
   public appPages = [
+    { title: 'Vacinas', url: '/vacinas', icon: 'wallet' },
     { title: 'Carteirinha', url: '/folder/inbox', icon: 'wallet' },
     { title: 'Dependentes', url: '/folder/favorites', icon: 'people' },
     { title: 'Informações', url: '/folder/outbox', icon: 'information-circle' }

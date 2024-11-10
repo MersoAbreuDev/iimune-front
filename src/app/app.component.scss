@@ -129,6 +129,7 @@ ion-item.selected {
 
 .user ion-avatar img{
   height: auto;
+  width: 60px;
 }
 
 .user ion-avatar{
@@ -142,6 +143,7 @@ ion-item.selected {
 }
 
 .user .perfil ion-button{
+  --border-radius: initial;
   font-size: 14px;
   text-decoration: underline;
   background-color: transparent;
