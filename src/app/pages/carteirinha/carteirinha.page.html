@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="openModal()">
+        <ion-icon name="notifications-outline"></ion-icon>
+        <ion-badge color="danger" *ngIf="unreadNotifications > 0">{{ unreadNotifications }}</ion-badge>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="sus ion-padding">
+    <div class="content">
+      <div class="content-title">
+        <h2>Cartão Nacional de Saúde</h2>
+      </div>
+      <div class="content-image">
+        <img src="./assets/cartao_sus.png" alt="">
+      </div>
+    </div>
+  </div>
+</ion-content>

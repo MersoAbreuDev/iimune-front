@@ -6,8 +6,10 @@ ion-menu-button {
   padding: 0 15px;
 }
 
-.campanhas .content{
-  padding: 30px 0 0 0;
+.campanhas .campanhas-title{
+  margin: 0;
+  font-size: 22px;
+  color: #464646;
 }
 
 .campanhas .content .content-title{
@@ -41,7 +43,7 @@ ion-menu-button {
 
 .campanhas .content .content-urgente .title h2{
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   color: #464646;
 }
 
@@ -51,6 +53,7 @@ ion-menu-button {
 
 .campanhas .content .content-urgente .subtitle p{
   margin: 0;
+  font-size: 14px;
 }
 
 .campanhas .content .content-urgente .plus{

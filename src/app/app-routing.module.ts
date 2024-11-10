@@ -26,7 +26,11 @@ const routes: Routes = [
   {
     path: 'vacinas',
     loadChildren: () => import('./pages/vacinas/vacinas.module').then( m => m.VacinasPageModule)
+  },  {
+    path: 'carteirinha',
+    loadChildren: () => import('./pages/carteirinha/carteirinha.module').then( m => m.CarteirinhaPageModule)
   }
+
 
 
 ];
